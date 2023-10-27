@@ -1,0 +1,4 @@
+SELECT region, AVG(fast_food_millions) AS average_millions FROM food_regions
+GROUP BY region
+ORDER BY average_millions DESC
+LIMIT 1;
